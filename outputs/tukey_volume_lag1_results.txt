@@ -1,0 +1,19 @@
+Tukey's HSD Post-Hoc Test Results
+Variable: total_volume_usd
+Group: classification_lag_1 (Yesterday's Sentiment)
+
+               Multiple Comparison of Means - Tukey HSD, FWER=0.05                
+==================================================================================
+    group1        group2       meandiff   p-adj      lower        upper     reject
+----------------------------------------------------------------------------------
+ Extreme Fear Extreme Greed -3774591.3107 0.0217 -7179866.2682 -369316.3532   True
+ Extreme Fear          Fear -2362042.5331 0.3225 -5797373.4569 1073288.3908  False
+ Extreme Fear         Greed -3265800.5631 0.0602 -6618340.2623    86739.136  False
+ Extreme Fear       Neutral -3349646.1713  0.106 -7112862.6503  413570.3076  False
+Extreme Greed          Fear  1412548.7777 0.1883  -366848.7918 3191946.3471  False
+Extreme Greed         Greed   508790.7476 0.9072 -1104987.3005 2122568.7957  False
+Extreme Greed       Neutral   424945.1394 0.9873 -1925917.5579 2775807.8367  False
+         Fear         Greed  -903758.0301 0.5712 -2580027.8797  772511.8195  False
+         Fear       Neutral  -987603.6383 0.7854 -3381795.8698 1406588.5933  False
+        Greed       Neutral   -83845.6082    1.0 -2357648.6603  2189957.444  False
+----------------------------------------------------------------------------------
